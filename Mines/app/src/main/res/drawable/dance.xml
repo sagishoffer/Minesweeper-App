@@ -1,0 +1,40 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/dance1" android:duration="70" />
+    <item android:drawable="@drawable/dance2" android:duration="70" />
+    <item android:drawable="@drawable/dance3" android:duration="70" />
+    <item android:drawable="@drawable/dance4" android:duration="70" />
+    <item android:drawable="@drawable/dance5" android:duration="70" />
+    <item android:drawable="@drawable/dance6" android:duration="70" />
+    <item android:drawable="@drawable/dance7" android:duration="70" />
+    <item android:drawable="@drawable/dance8" android:duration="70" />
+    <item android:drawable="@drawable/dance9" android:duration="70" />
+    <item android:drawable="@drawable/dance10" android:duration="70" />
+    <item android:drawable="@drawable/dance11" android:duration="70" />
+    <item android:drawable="@drawable/dance12" android:duration="70" />
+    <item android:drawable="@drawable/dance13" android:duration="70" />
+    <item android:drawable="@drawable/dance14" android:duration="70" />
+    <item android:drawable="@drawable/dance15" android:duration="70" />
+    <item android:drawable="@drawable/dance16" android:duration="70" />
+    <item android:drawable="@drawable/dance1" android:duration="70" />
+    <item android:drawable="@drawable/dance2" android:duration="70" />
+    <item android:drawable="@drawable/dance3" android:duration="70" />
+    <item android:drawable="@drawable/dance4" android:duration="70" />
+    <item android:drawable="@drawable/dance5" android:duration="70" />
+    <item android:drawable="@drawable/dance6" android:duration="70" />
+    <item android:drawable="@drawable/dance7" android:duration="70" />
+    <item android:drawable="@drawable/dance8" android:duration="70" />
+    <item android:drawable="@drawable/dance9" android:duration="70" />
+    <item android:drawable="@drawable/dance10" android:duration="70" />
+    <item android:drawable="@drawable/dance11" android:duration="70" />
+    <item android:drawable="@drawable/dance12" android:duration="70" />
+    <item android:drawable="@drawable/dance13" android:duration="70" />
+    <item android:drawable="@drawable/dance14" android:duration="70" />
+    <item android:drawable="@drawable/dance15" android:duration="70" />
+    <item android:drawable="@drawable/dance16" android:duration="70" />
+    <item android:drawable="@drawable/dance1" android:duration="70" />
+    <item android:drawable="@drawable/dance2" android:duration="70" />
+    <item android:drawable="@drawable/dance3" android:duration="70" />
+
+
+</animation-list>

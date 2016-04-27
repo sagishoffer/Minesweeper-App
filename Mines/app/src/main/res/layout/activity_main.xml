@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:layoutDirection="ltr">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/minesweeper_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/levelRadioGroup"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="false"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/startBT">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner_level"
+            android:id="@+id/tableRadioButton"
+            android:layout_above="@+id/normalRB"
+            android:layout_alignStart="@+id/normalRB"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/normal_level"
+            android:id="@+id/normalRB"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expert_level"
+            android:id="@+id/expertRB"
+            android:layout_below="@+id/normalRB"
+            android:layout_centerHorizontal="true"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button"
+        android:id="@+id/startBT"
+        android:onClick="onClickStart"
+        android:layout_above="@+id/highScore_button"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/highScore_button"
+        android:id="@+id/highScore_button"
+        android:onClick="onClickHighScore"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+</RelativeLayout>

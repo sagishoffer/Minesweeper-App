@@ -1,0 +1,21 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/firework1" android:duration="150" />
+    <item android:drawable="@drawable/firework2" android:duration="150" />
+    <item android:drawable="@drawable/firework3" android:duration="150" />
+    <item android:drawable="@drawable/firework4" android:duration="150" />
+    <item android:drawable="@drawable/firework5" android:duration="150" />
+    <item android:drawable="@drawable/firework6" android:duration="150" />
+    <item android:drawable="@drawable/firework7" android:duration="150" />
+    <item android:drawable="@drawable/firework8" android:duration="150" />
+    <item android:drawable="@drawable/firework9" android:duration="150" />
+    <item android:drawable="@drawable/firework10" android:duration="150" />
+    <item android:drawable="@drawable/firework11" android:duration="150" />
+    <item android:drawable="@drawable/firework12" android:duration="150" />
+    <item android:drawable="@drawable/firework13" android:duration="150" />
+    <item android:drawable="@drawable/firework14" android:duration="150" />
+    <item android:drawable="@drawable/firework15" android:duration="150" />
+    <item android:drawable="@drawable/firework16" android:duration="150" />
+    <item android:drawable="@drawable/firework17" android:duration="150" />
+
+</animation-list>
